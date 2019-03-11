@@ -1,0 +1,63 @@
+page-landing {
+
+    .landing-header {
+        background-image: url(../assets/imgs/white-bg.svg);
+        background-repeat: no-repeat;
+        height: 251px;
+        position: relative;
+        z-index: 999;
+    }
+
+    .header-md::after {
+        background: transparent;
+    }
+
+    .brand-logo {
+        margin: -20px auto;
+        width: 242px;
+    }
+
+    .main-bg {
+        background-color: #001A2E;
+        background-image: url('../../assets/imgs/image-bg.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .welcome-msg {
+        color: white;
+        text-align: center;
+        padding-top: 156px;
+    }
+
+    .welcome-msg h1 {
+        font-family: ChoplinMedium;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .welcome-msg h3 {
+        font-family: ChoplinLight;
+        font-size: 25px;
+    }
+
+    .btn {
+        padding: 15px;
+    }
+
+    .btn-next {
+        width: 190px;
+        background-color: #A2D729;
+        color: #fff;
+        text-align: center;
+        border-radius: 12px;
+        margin-top: 30px;
+    }
+
+    .button[icon-only] {
+        background-color: transparent;
+        color: #001A2E;
+    }
+}
+

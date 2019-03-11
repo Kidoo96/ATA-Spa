@@ -1,0 +1,78 @@
+page-home {
+
+    .bg-image {
+        background-color: #001A2E;
+        background-image: url('../../assets/imgs/bg2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bar-button-ios[icon-only] {
+        background-color: transparent;
+        color: #001A2E;
+    }
+
+    .toolbar-title-ios {
+        color: #33658A;
+    }
+
+    .toolbar-ios {
+        min-height: 55px;
+        margin-bottom: 80px;
+    }
+
+    .intro {
+        text-align: center;
+        color: #fff;
+    }
+
+    .intro h1 {
+        font-size: 23px;
+    }
+
+    .intro p {
+        font-size: 14px;
+    }
+
+    .cube-box {
+        background-color: #FFFFFF;
+        border: 1px solid #979797;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        width: 150px;
+        height: 150px;
+    }
+
+    .cube-box h2 {
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+
+    ion-grid {
+        margin-top: 45px;
+    }
+
+    ion-header {
+        text-align: center;
+    }
+
+    .toolbar-background-md {
+        border: none;
+        background: #fff;
+    }
+
+    .toolbar-title-md {
+        color: #33658A;
+    }
+
+    .bar-buttons-md {
+        position: absolute;
+        top: 20%;
+    }
+
+
+}

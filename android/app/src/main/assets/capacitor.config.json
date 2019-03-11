@@ -1,0 +1,6 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "ataSpa",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}

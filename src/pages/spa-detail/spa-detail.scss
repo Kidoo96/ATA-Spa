@@ -1,0 +1,38 @@
+page-spa-detail {
+
+    .bgstyle {
+        background: #fff;
+    }
+
+    .toolbar-background-md {
+        border: none;
+        background: #fff;
+        box-shadow: none;
+    }
+
+    .toolbar-title-md {
+        color: #33658A;
+    }
+
+    .toolbar-title {
+        text-align: center;
+        width: 84%;
+    }
+
+    .header-md::after {
+        background: transparent;
+    }
+
+    .box {
+        background: #fff;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .title h1 {
+        color: #011627;
+        font-size: 2.0rem;
+        padding-left: 5px;
+    }
+
+}

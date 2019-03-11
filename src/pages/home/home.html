@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons start>
+          <button ion-button icon-only menuToggle>
+              <ion-icon name="menu"></ion-icon>
+          </button>
+      </ion-buttons>
+    <ion-title >СПА Хотел АТА</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content padding class="bg-image">
+<!-- <button ion-button full color="light" (click)="openLandingPage()">Landing Page</button> -->
+
+<div class="intro">
+  <h1>Действия</h1>
+  <p>Разгледайте нашият хотел с предоставените по-долу опций.</p>
+</div>
+
+<ion-grid>
+  <ion-row align-items-center>
+    <ion-col (click)="openRoomsPage()" class="cube-box" size-sm size-lg size-md>
+        <ion-icon name="icons-bed"></ion-icon>
+        <h2>Настаняване</h2>
+    </ion-col>
+    <ion-col (click)="openBusinessPage()" class="cube-box" size-sm size-lg size-md>
+        <ion-icon name="icons-bussinessicon"></ion-icon>
+        <h2>Бизнес</h2>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+      <ion-col (click)="openLandingPage()" class="cube-box" size-sm size-lg size-md>
+          <ion-icon name="icons-restourant"></ion-icon>
+          <h2>Ресторанти</h2>
+      </ion-col>
+      <ion-col (click)="openSpaPage()" class="cube-box" size-sm size-lg size-md>
+          <ion-icon name="icons-spa"></ion-icon>
+          <h2>СПА Център</h2>
+      </ion-col>
+    </ion-row>
+</ion-grid>
+
+</ion-content>

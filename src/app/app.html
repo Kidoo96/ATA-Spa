@@ -1,0 +1,13 @@
+<ion-menu [content]="content">
+
+    <ion-content padding>
+        <ion-list>
+            <button menuClose ion-item *ngFor="let cat of api.Categories" (click)="openPage(cat.id)">
+                {{cat.name}}
+            </button>
+        </ion-list>
+    </ion-content>
+</ion-menu>
+
+
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

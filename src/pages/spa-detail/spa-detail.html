@@ -1,0 +1,31 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>СПА Хотел АТА</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="bgstyle">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+          <div class="post-img">
+              <img [src]='post.better_featured_image.source_url'/>
+          </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col class="box">
+          <div class="title"><h1>{{post.title.rendered}}</h1></div>
+          <hr/>
+          <div [innerHTML]="post.content.rendered"></div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+</ion-content>

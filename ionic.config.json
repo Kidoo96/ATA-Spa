@@ -1,0 +1,9 @@
+{
+  "name": "ataSpa",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "ionic-angular",
+  "id": "c17eecec"
+}

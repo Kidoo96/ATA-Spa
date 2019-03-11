@@ -1,0 +1,24 @@
+<!--
+  Generated template for the SpaPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>СПА Център</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="card-background">
+
+    <ion-card *ngFor="let item of items" (click)="openDetail(item)">
+        <div class="img-overlay"></div>
+        <img [src]='item.better_featured_image.source_url'/>
+        <div class="card-title">{{item.title.rendered}}</div>
+    </ion-card>
+
+</ion-content>

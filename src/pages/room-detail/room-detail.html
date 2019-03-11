@@ -1,0 +1,55 @@
+<!--
+  Generated template for the RoomDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>СПА Хотел АТА</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="bgstyle">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+            <div class="post-img" (click)="openDetail()">
+                <img src="{{room.imageOne}}" imageViewer />
+            </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+          <ion-col>
+              <div class="post-img" >
+                  <img src="{{room.imageTwo}}" imageViewer />
+              </div>
+          </ion-col>
+          <ion-col>
+              <div class="post-img">
+                  <img src="{{room.imageThree}}" imageViewer/>
+              </div>
+          </ion-col>
+          <ion-col>
+              <div class="post-img">
+                  <img src="{{room.imageFour}}" imageViewer/>
+              </div>
+          </ion-col>
+        </ion-row>
+  
+      <ion-row>
+        <ion-col class="box">
+            <div class="title"><h1>{{room.post_title}}</h1></div>
+            <hr/>
+            <div [innerHTML]="room.post_content"></div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  
+  
+  
+  </ion-content>

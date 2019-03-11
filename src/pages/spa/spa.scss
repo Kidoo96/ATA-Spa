@@ -1,0 +1,65 @@
+page-spa {
+
+    .toolbar-background-md {
+        border: none;
+        background: #fff;
+        box-shadow: none;
+    }
+
+    .toolbar-title-md {
+        color: #33658A;
+    }
+
+    .toolbar-title {
+        text-align: center;
+        width: 84%;
+    }
+
+    .header-md::after {
+        background: transparent;
+    }
+
+    .card-md {
+        width: 100%;
+        height: 25%;
+    }
+
+    .card-background {
+
+        background: #011627;
+
+        ion-card {
+          position: relative;
+          text-align: left;
+        }
+      
+        .card-title {
+          position: absolute;
+          top: 77%;
+          font-size: 1.3em;
+          width: 100%;
+          color: #fff;
+          padding-left: 6px;
+        }
+      
+        .card-subtitle {
+          font-size: 1.0em;
+          position: absolute;
+          top: 52%;
+          width: 100%;
+          color: #fff;
+        }
+
+        .img-overlay {
+            background: rgba(1,22,39, 0.6);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+
+        .card-md {
+            margin: 0 0 5px 0;
+        }
+      
+      }
+}

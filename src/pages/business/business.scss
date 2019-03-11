@@ -1,0 +1,22 @@
+page-business {
+
+    .toolbar-background-md {
+        border: none;
+        background: #fff;
+        box-shadow: none;
+    }
+
+    .toolbar-title-md {
+        color: #33658A;
+    }
+
+    .toolbar-title {
+        text-align: center;
+        width: 84%;
+    }
+
+    .header-md::after {
+        background: transparent;
+    }
+
+}

@@ -1,0 +1,52 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>СПА Хотел АТА</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+      
+    <div [ngSwitch]="conf">
+        <ion-list *ngSwitchCase="'bigConf'">
+          <ion-item>
+              <ion-slides class="image-slider" loop="true">
+                  <ion-slide *ngFor="let img of images">
+                    <img src="assets/imgs/gallery/{{img}}" class="thumb-img" imageViewer/>
+                  </ion-slide>
+                </ion-slides>
+                <h2>Конферетна зала</h2>
+                <p>Lipsum</p>
+          </ion-item>
+        </ion-list>
+      
+        <ion-list *ngSwitchCase="'smallConf'">
+          <ion-item>
+              <ion-slides class="image-slider" loop="true">
+                  <ion-slide *ngFor="let img of smallConfImage">
+                    <img src="assets/imgs/gallery/{{img}}" class="thumb-img" imageViewer/>
+                  </ion-slide>
+                </ion-slides>
+                <h2>Малка конферетна зала</h2>
+                <p>Lipsum</p>
+          </ion-item>
+        </ion-list>
+
+    </div>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar no-border-top>
+    <ion-segment [(ngModel)]="conf">
+      <ion-segment-button value="bigConf">
+        Конферетна зала
+      </ion-segment-button>
+      <ion-segment-button value="smallConf">
+        Малка конферетна зала
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-footer>
